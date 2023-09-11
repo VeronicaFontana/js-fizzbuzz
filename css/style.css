@@ -1,3 +1,30 @@
-.bg-blue{
-  background-color: blue;
+body h1{
+  font-size: 4rem;
+  color: white;
+}
+
+body section{
+  background-color: rgb(12, 90, 30);
+}
+
+.box-normal{
+  height: 100px;
+  width: 100px;
+  background-color: lightskyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px;
+}
+
+.box-fizz{
+  background-color: rgb(135, 250, 169);
+}
+
+.box-buzz{
+  background-color: rgb(240, 240, 141);
+}
+
+.box-fizzbuzz{
+  background-color: rgb(237, 104, 104);
 }
